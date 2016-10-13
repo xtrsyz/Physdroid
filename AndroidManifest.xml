@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="id.rosipravita.physdroid" android:versionCode="1"
+	android:versionName="1.0">
+	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.READ_PHONE_STATE" />
+	<uses-permission android:name="android.permission.CALL_PHONE" />
+	<uses-permission android:name="android.permission.READ_LOGS" />
+	<uses-permission android:name="android.permission.WAKE_LOCK" />
+	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+	<uses-permission android:name="com.android.vending.BILLING" />
+	<uses-permission android:name="android.permission.ACCESS_COARSE_UPDATES" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION" />
+	- <!-- <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" 
+		/> -->
+	<uses-sdk android:maxSdkVersion="16" android:minSdkVersion="8"
+		android:targetSdkVersion="8" />
+	<supports-screens android:anyDensity="true"
+		android:largeScreens="true" android:normalScreens="true"
+		android:smallScreens="true" />
+	-
+	<application android:icon="@drawable/ic_launcher"
+		android:allowBackup="true" android:label="@string/app_name">
+		-
+		<activity android:name="id.rosipravita.physdroid.Splash"
+			android:label="@string/app_name" android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+			-
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+		<activity android:name=".AndroidTaskActivity" android:label="@string/app_name"
+			android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+		<activity android:name=".pendahuluan" android:label="@string/app_name"
+			android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+		<activity android:name=".materi" android:label="@string/app_name"
+			android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+		<activity android:name=".tenaga" android:label="@string/app_name"
+			android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+		<activity android:name=".energi" android:label="@string/app_name"
+			android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+		<activity android:name=".energi2" android:label="@string/app_name"
+			android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+		<activity android:name=".energi3" android:label="@string/app_name"
+			android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+		<activity android:name=".daya" android:label="@string/app_name"
+			android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+		<activity android:name=".contoh" android:label="@string/app_name"
+			android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+		<activity android:name=".simulasi" android:label="@string/app_name"
+			android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+		<activity android:name=".latihan" android:label="@string/app_name"
+			android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+		<activity android:name=".nilai" android:label="@string/app_name"
+			android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+		<activity android:name=".Profil" android:label="@string/app_name"
+			android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+		<service android:name="MusicService" android:enabled="true"/>
+	</application>
+	
+</manifest>

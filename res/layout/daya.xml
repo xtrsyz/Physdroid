@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:android1="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lindy"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backg"
+    android:orientation="vertical" >
+
+    <TabHost
+        android1:id="@android:id/tabhost"
+        android1:layout_width="match_parent"
+        android1:layout_height="match_parent" >
+
+        <LinearLayout
+            android1:layout_width="match_parent"
+            android1:layout_height="match_parent"
+            android1:orientation="vertical" >
+
+            <TabWidget
+                android1:id="@android:id/tabs"
+                android1:layout_width="match_parent"
+                android1:layout_height="wrap_content" >
+            </TabWidget>
+
+            <FrameLayout
+                android1:id="@android:id/tabcontent"
+                android1:layout_width="match_parent"
+                android1:layout_height="match_parent" >
+
+                <LinearLayout
+                    android1:id="@+id/PENGERTIAN"
+                    android1:layout_width="match_parent"
+                    android1:layout_height="match_parent" >
+
+                    <ScrollView
+                        android1:id="@+id/scrollView1"
+                        android1:layout_width="match_parent"
+                        android1:layout_height="match_parent" >
+
+                        <WebView
+                            android:id="@+id/mdy"
+                            android:layout_marginTop="6dp"
+           					android:layout_below="@+id/backg"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+
+                    </ScrollView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android1:id="@+id/CONTOH"
+                    android1:layout_width="match_parent"
+                    android1:layout_height="match_parent" >
+
+                    
+                    <ScrollView
+                        android1:id="@+id/scrollView2"
+                        android1:layout_width="match_parent"
+                        android1:layout_height="match_parent" >
+
+                        <WebView
+                            android:id="@+id/cdy"
+                            android:layout_marginTop="6dp"
+           					android:layout_below="@+id/backg"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+
+                    </ScrollView>
+
+                </LinearLayout>
+            </FrameLayout>
+
+        </LinearLayout>
+    </TabHost>
+
+</LinearLayout>

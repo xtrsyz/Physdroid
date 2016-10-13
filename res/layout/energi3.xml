@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linen3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backg"
+    android:orientation="vertical" >
+
+
+    <TabHost
+        android:id="@android:id/tabhost"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+
+                <LinearLayout
+                    android:id="@+id/PENGERTIAN"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+ 
+
+                    <ScrollView
+                        android:id="@+id/scrollView1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" >
+ 
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical" >
+
+                            <TextView
+                                android:id="@+id/textView1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+
+                            <TextView
+                                android:id="@+id/textView2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:text="ENERGI MEKANIK"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="#000000" />
+
+                            <TextView
+                                android:id="@+id/textView3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+
+                            <ImageView
+                                android:id="@+id/mknikanim"
+                                android:layout_width="172dp"
+                                android:layout_height="300dp"
+                                android:layout_gravity="center"
+                                android:layout_weight="0.71" />
+- 
+
+                            <RelativeLayout
+                                android:id="@+id/RelativeLayout1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical" >
+
+                                <Button
+                                    android:id="@+id/btStop"
+                                    android:layout_width="25dp"
+                                    android:layout_height="25dp"
+                                    android:layout_alignParentRight="true"
+                                    android:layout_alignParentTop="true"
+                                    android:layout_marginRight="14dp"
+                                    android:background="@drawable/pause" />
+
+                                <Button
+                                    android:id="@+id/btStart"
+                                    android:layout_width="50dp"
+                                    android:layout_height="25dp"
+                                    android:layout_alignParentTop="true"
+                                    android:layout_marginRight="15dp"
+                                    android:layout_toLeftOf="@+id/btStop"
+                                    android:background="@drawable/play" />
+                            </RelativeLayout>
+
+                            <WebView
+                                android:id="@+id/webView1"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent" />
+                        </LinearLayout>
+                    </ScrollView>
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/CONTOH"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+ 
+
+                    <ScrollView
+                        android:id="@+id/scrollView2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent" >
+ 
+
+                        <WebView
+                            android:id="@+id/webView2"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" />
+
+                    </ScrollView>
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+    </TabHost>
+
+</LinearLayout>

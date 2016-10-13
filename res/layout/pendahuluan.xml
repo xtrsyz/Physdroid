@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:android1="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linpd"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backg"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/btnkem"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/home"
+        android:gravity="center" />
+
+    <TabHost
+        android1:id="@android:id/tabhost"
+        android1:layout_width="match_parent"
+        android1:layout_height="match_parent" >
+
+        <LinearLayout
+            android1:layout_width="match_parent"
+            android1:layout_height="match_parent"
+            android1:orientation="vertical" >
+
+            <TabWidget
+                android1:id="@android:id/tabs"
+                android1:layout_width="match_parent"
+                android1:layout_height="wrap_content" >
+            </TabWidget>
+
+            <FrameLayout
+                android1:id="@android:id/tabcontent"
+                android1:layout_width="match_parent"
+                android1:layout_height="match_parent" >
+
+                <LinearLayout
+                    android1:id="@+id/PETUNJUK"
+                    android1:layout_width="match_parent"
+                    android1:layout_height="match_parent" >
+
+                    <ScrollView
+                        android1:id="@+id/scrollView1"
+                        android1:layout_width="match_parent"
+                        android1:layout_height="match_parent" >
+
+                        <WebView
+                            android:id="@+id/ptjuk"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/backg"
+                            android:layout_marginTop="6dp" />
+                    </ScrollView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android1:id="@+id/KOMPETENSI"
+                    android1:layout_width="match_parent"
+                    android1:layout_height="match_parent" >
+
+                    <ScrollView
+                        android1:id="@+id/scrollView2"
+                        android1:layout_width="match_parent"
+                        android1:layout_height="match_parent" >
+
+                        <WebView
+                            android:id="@+id/komp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/backg"
+                            android:layout_marginTop="6dp" />
+                    </ScrollView>
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+    </TabHost>
+
+</LinearLayout>

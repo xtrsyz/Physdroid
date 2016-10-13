@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+
+    <string name="hello">Physdroid versi 1.0.0</string>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">Physdroid</string>
+    <string name="judul_splash">Usaha dan Energi</string>
+    <string name="bawah_splash">Rosi Pravita Dewi             Copyright 2013</string>
+    <string name="mainpage">Halaman Utama</string>
+    <string name="btnpdhl">Pendahuluan</string>
+    <string name="silahkan">Silahkan klik salah satu menu pada menu utama dan scroll down untuk membaca penjelasan pada menu materi</string>
+    <string name="btnmat">Materi</string>
+    <string name="btntask">Latihan</string>
+    <string name="btnpfl">Profil</string>
+    <string name="nama">Nama	: Rosi Pravita Dewi</string>
+    <string name="nim">NIM	: A1C309013</string>
+    <string name="ttl">TTL	: Jambi, 26 Januari 1992</string>
+    <string name="email">Email	: Rosi.fis09@yahoo.com</string>
+    <string name="btnren_kem">Main</string>
+    <string name="btn_prof_kem">Kembali ke Halaman Utama</string>
+    <string name="btnclose">Keluar</string>
+    <string name="btenaga">Usaha</string>
+    <string name="str1"><li><i>Jika θ = 0°, arah gaya berimpit dengan arah perpindahan, W = F . S</i>Jika θ = 90°, arah gaya tegak lurus dengan arah perpindahan</li><li>Jika s = 0, berarti gaya tidak menyebabkan benda berpindah</li></string>
+    <string name="bek">Energi Kinetik</string>
+    <string name="bep">Energi Potensial</string>
+    <string name="bem">Energi Mekanik</string>
+    <string name="bdaya">Daya</string>
+    <string name="menu_settings">Settings</string>
+
+</resources>

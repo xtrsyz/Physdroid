@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android" android:oneshot="false">
+    <item android:drawable="@drawable/mknik1" android:duration="1000" />
+    <item android:drawable="@drawable/mknik2" android:duration="1000" />
+    <item android:drawable="@drawable/mknik3" android:duration="1000" />
+    <item android:drawable="@drawable/mknik4" android:duration="1000" />
+    <item android:drawable="@drawable/mknik5" android:duration="1000" />
+   
+</animation-list>
